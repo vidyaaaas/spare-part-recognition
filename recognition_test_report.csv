@@ -1,0 +1,66 @@
+test_type,image_path,expected,predicted,flag,passed,reason,best_score,second_best_score,raw_matches,inlier_ratio,blur_score,time_seconds
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-0.jpg,Part_01,Part_01,1,Yes,Accepted,217,24,294,0.74,144.84,3.514
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-1.jpg,Part_01,Part_01,1,Yes,Accepted,255,10,331,0.77,183.59,4.144
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-10.jpg,Part_01,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 16, Second: 13, required separation ratio: 1.8",16,13,70,0.23,232.82,3.707
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-11.jpg,Part_01,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 12, required: 15",12,9,47,0.26,150.47,3.252
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-12.jpg,Part_01,Part_01,1,Yes,Accepted,616,17,723,0.85,257.45,3.751
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-2.jpg,Part_01,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 27, Second: 23, required separation ratio: 1.8",27,23,54,0.50,182.73,3.898
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-3.jpg,Part_01,Part_01,1,Yes,Accepted,427,34,530,0.81,161.51,3.789
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-4.jpg,Part_01,Part_01,1,Yes,Accepted,449,29,537,0.84,216.51,3.889
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-5.jpg,Part_01,Part_01,1,Yes,Accepted,379,50,473,0.80,160.23,3.707
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-6.jpg,Part_01,Part_01,1,Yes,Accepted,340,14,418,0.81,157.51,3.751
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-7.jpg,Part_01,Part_01,1,Yes,Accepted,375,17,450,0.83,231.11,4.531
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-8.jpg,Part_01,Part_01,1,Yes,Accepted,642,16,762,0.84,236.61,4.123
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_01\1-images-9.jpg,Part_01,Part_03,1,No,Accepted,32,12,87,0.37,171.33,4.075
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-0.jpg,Part_02,Part_02,1,Yes,Accepted,270,15,331,0.82,181.08,3.835
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-1.jpg,Part_02,Part_02,1,Yes,Accepted,348,15,438,0.79,210.99,4.300
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-10.jpg,Part_02,Part_03,1,No,Accepted,22,12,79,0.28,124.44,4.278
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-11.jpg,Part_02,Part_03,1,No,Accepted,19,10,56,0.34,275.35,3.942
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-12.jpg,Part_02,Part_02,1,Yes,Accepted,28,14,86,0.33,152.92,4.481
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-2.jpg,Part_02,Part_02,1,Yes,Accepted,220,16,291,0.76,131.39,3.422
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-3.jpg,Part_02,Part_02,1,Yes,Accepted,322,16,398,0.81,148.16,3.804
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-4.jpg,Part_02,Part_02,1,Yes,Accepted,315,44,416,0.76,172.65,3.889
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-5.jpg,Part_02,Part_02,1,Yes,Accepted,390,32,472,0.83,194.85,4.484
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-6.jpg,Part_02,Part_02,1,Yes,Accepted,417,26,502,0.83,220.23,4.552
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-7.jpg,Part_02,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 14, required: 15",14,9,48,0.29,205.57,4.376
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-8.jpg,Part_02,Part_02,1,Yes,Accepted,25,8,57,0.44,195.18,4.211
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_02\2-images-9.jpg,Part_02,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 9, required: 15",9,8,32,0.28,177.92,4.209
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-0.jpg,Part_03,Part_02,1,No,Accepted,22,12,62,0.35,212.02,4.179
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-1.jpg,Part_03,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 20, Second: 16, required separation ratio: 1.8",20,16,82,0.24,188.00,4.156
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-10.jpg,Part_03,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 9, required: 15",9,9,41,0.22,241.18,4.463
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-11.jpg,Part_03,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 25, Second: 15, required separation ratio: 1.8",25,15,63,0.40,164.00,4.585
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-2.jpg,Part_03,Part_03,1,Yes,Accepted,569,26,604,0.94,119.67,3.866
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-3.jpg,Part_03,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 15, Second: 13, required separation ratio: 1.8",15,13,47,0.32,252.71,4.204
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-4.jpg,Part_03,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 17, Second: 10, required separation ratio: 1.8",17,10,45,0.38,141.45,4.509
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-5.jpg,Part_03,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 11, required: 15",11,10,47,0.23,301.59,4.521
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-6.jpg,Part_03,Part_03,1,Yes,Accepted,584,25,620,0.94,116.07,3.806
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-7.jpg,Part_03,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 63, Second: 42, required separation ratio: 1.8",63,42,150,0.42,231.80,4.211
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-8.jpg,Part_03,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 19, Second: 12, required separation ratio: 1.8",19,12,54,0.35,227.77,3.961
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_03\3-images-9.jpg,Part_03,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 17, Second: 10, required separation ratio: 1.8",17,10,61,0.28,150.49,4.280
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-0.jpg,Part_04,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 12, required: 15",12,11,46,0.26,345.29,4.098
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-1.jpg,Part_04,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 11, required: 15",11,11,39,0.28,126.64,3.377
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-2.jpg,Part_04,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 10, required: 15",10,10,42,0.24,200.28,4.011
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-3.jpg,Part_04,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 17, Second: 14, required separation ratio: 1.8",17,14,42,0.40,359.79,3.915
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-4.jpg,Part_04,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 13, required: 15",13,10,55,0.24,331.21,3.993
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-5.jpg,Part_04,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 11, required: 15",11,8,35,0.31,315.87,4.508
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-6.jpg,Part_04,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 18, Second: 16, required separation ratio: 1.8",18,16,56,0.32,162.63,3.482
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-7.jpg,Part_04,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 15, Second: 10, required separation ratio: 1.8",15,10,37,0.41,184.34,3.268
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_04\4-images-8.jpg,Part_04,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 16, Second: 9, required separation ratio: 1.8",16,9,48,0.33,118.12,3.661
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-0.jpg,Part_05,Part_05,1,Yes,Accepted,102,19,144,0.71,627.64,3.622
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-1.jpg,Part_05,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 12, required: 15",12,12,40,0.30,427.76,3.895
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-2.jpg,Part_05,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 13, required: 15",13,8,52,0.25,466.38,3.745
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-3.jpg,Part_05,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 14, required: 15",14,13,28,0.50,316.65,4.052
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-4.jpg,Part_05,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 16, Second: 14, required separation ratio: 1.8",16,14,43,0.37,751.42,4.198
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-5.jpg,Part_05,Part_04,1,No,Accepted,20,11,45,0.44,464.34,3.999
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-6.jpg,Part_05,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 13, required: 15",13,11,63,0.21,876.09,4.661
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-7.jpg,Part_05,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 18, Second: 18, required separation ratio: 1.8",18,18,60,0.30,998.59,4.075
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_05\5-images-8.jpg,Part_05,Part_05,1,Yes,Accepted,74,19,122,0.61,555.57,4.208
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-0.jpg,Part_06,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 9, required: 15",9,8,25,0.36,349.94,4.077
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-1.jpg,Part_06,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 20, Second: 12, required separation ratio: 1.8",20,12,55,0.36,300.35,4.162
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-2.jpg,Part_06,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 9, required: 15",9,8,29,0.31,465.81,3.629
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-3.jpg,Part_06,Part_06,1,Yes,Accepted,22,10,52,0.42,157.72,2.234
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-4.jpg,Part_06,Part_06,1,Yes,Accepted,26,10,67,0.39,327.81,4.858
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-5.jpg,Part_06,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 18, Second: 13, required separation ratio: 1.8",18,13,68,0.26,198.99,8.348
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-6.jpg,Part_06,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 12, required: 15",12,10,67,0.18,300.49,8.069
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-7.jpg,Part_06,Unknown,0,No,"Best match is not clearly separated from second-best match. Best: 16, Second: 11, required separation ratio: 1.8",16,11,58,0.28,202.21,9.307
+known_leave_one_out,c:\Users\vidya singh\OneDrive\Documents\new\dataset\Part_06\6-images-8.jpg,Part_06,Unknown,0,No,"Best RANSAC score is below threshold. Best score: 12, required: 15",12,11,44,0.27,199.88,6.946
